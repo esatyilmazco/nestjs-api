@@ -14,8 +14,6 @@ import { identity } from 'rxjs';
 export class UserController {
   @Get()
   getUser(@Req() req: Request): string {
-    // console.log('req', req.method);
-
     return 'UserController';
   }
   //   @Get(':id')
